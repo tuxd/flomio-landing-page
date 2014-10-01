@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "bower_components"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "src"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "dest"
+		}
+	]
+}

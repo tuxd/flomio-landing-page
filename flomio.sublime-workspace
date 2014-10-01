@@ -1,0 +1,985 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"window",
+				"windowOffset"
+			],
+			[
+				"Hel",
+				"Helvetica"
+			],
+			[
+				"scro",
+				"scrollTop"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"light",
+				"light-blue"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"secondray",
+				"secondary-color"
+			],
+			[
+				"transfo",
+				"transform"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"content",
+				"contentWrap"
+			],
+			[
+				"sec",
+				"secondary-green"
+			],
+			[
+				"grey",
+				"grey-blog"
+			],
+			[
+				"secon",
+				"secondary-blue"
+			],
+			[
+				"second",
+				"secondary-blue"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"margin-t",
+				"margin-bottom"
+			],
+			[
+				"asap",
+				"asapregular"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"as",
+				"asapbold"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"grey-",
+				"grey-blog"
+			],
+			[
+				"b",
+				"border"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"icon",
+				"icomoon"
+			],
+			[
+				"secondary",
+				"secondary-orange"
+			],
+			[
+				"mouse",
+				"mouseover"
+			],
+			[
+				"gr",
+				"grey-black"
+			],
+			[
+				"secondar",
+				"secondary-blue-hover"
+			],
+			[
+				"se",
+				"secondary-aqua-hover"
+			],
+			[
+				"gre",
+				"grey-lighter"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"seco",
+				"secondary-green"
+			],
+			[
+				"text-a",
+				"text-transform"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"secondaru",
+				"secondary-blue-hover"
+			],
+			[
+				"blue",
+				"secondary-blue"
+			],
+			[
+				"grey-li",
+				"grey-lighter"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"cor",
+				"color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"tex-",
+				"text-transform"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"bro",
+				"border-left"
+			],
+			[
+				"t",
+				"text-transform"
+			],
+			[
+				"borde",
+				"border-collapse"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"workExapl",
+				"workExamples"
+			],
+			[
+				"work",
+				"workLarge"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"com",
+				"commonFuncts"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/index.liquid",
+			"settings":
+			{
+				"buffer_size": 7020,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/includes/layout.liquid",
+			"settings":
+			{
+				"buffer_size": 18711,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bower_components/foundation/scss/app.scss",
+			"settings":
+			{
+				"buffer_size": 14278,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 4174,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bower_components/skrollr/skrollr.js.0.6.17",
+			"settings":
+			{
+				"buffer_size": 44352,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bower_components/skrollr/skrollr.js",
+			"settings":
+			{
+				"buffer_size": 48225,
+				"line_ending": "Unix",
+				"name": "/*!"
+			}
+		},
+		{
+			"file": "bower_components/skrollr/skrollr-colours.js",
+			"settings":
+			{
+				"buffer_size": 4020,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bower_components/main.js",
+			"settings":
+			{
+				"buffer_size": 7648,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "function adjustWindow(){\n     \n    // Get window size\n    winH = $window.height();\n    winW = $window.width();\n     \n    // Keep minimum height 550\n    if(winH <= 550) {\n        winH = 550;\n    }\n     \n    // Init Skrollr for 768 and up\n    if( winW >= 768) {\n \n        // Init Skrollr\n        var s = skrollr.init({\n            forceHeight: false\n        });\n \n        // Resize our slides\n        $slide.height(winH);\n \n        s.refresh($('.homeSlide'));\n \n    } else {\n \n        // Init Skrollr\n        var s = skrollr.init();\n        s.destroy();\n    }\n \n    // Check for touch\n    if(Modernizr.touch) {\n \n        // Init Skrollr\n        var s = skrollr.init();\n        s.destroy();\n    }\n \n}",
+			"settings":
+			{
+				"buffer_size": 697,
+				"line_ending": "Unix",
+				"name": "function adjustWindow(){"
+			}
+		},
+		{
+			"file": "src/includes/scripts.liquid",
+			"settings":
+			{
+				"buffer_size": 6261,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"sublime.executable_path()",
+			"import sublime"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/skrollr/skrollr.js",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/skrollr-colours.min.js",
+		"/Users/danieljones/Work/flomio/landingPage/html/src/includes/layout.liquid",
+		"/Users/danieljones/Work/peakStays/foundation5/assets/scss/animate.scss",
+		"/Users/danieljones/Downloads/parallax-part-2/index.html",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/foundation/scss/foundation/components/_fonts.scss",
+		"/Users/danieljones/Work/flomio/landingPage/html/Gruntfile.js",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/foundation/scss/foundation.scss",
+		"/Users/danieljones/Work/flomio/landingPage/html/src/includes/scripts.liquid",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/foundation/js/app.js",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/foundation/js/main.js",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/foundation/scss/app.scss",
+		"/Users/danieljones/Downloads/parallax-part-2/css/main.css",
+		"/Users/danieljones/Work/flomio/landingPage/html/src/includes/header.liquid",
+		"/Users/danieljones/Downloads/parallax-part-2/js/_main.js",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/foundation/scss/foundation/components/_buttons.scss",
+		"/Users/danieljones/Work/flomio/landingPage/html/dest/js/app.min.js",
+		"/Users/danieljones/Work/flomio/landingPage/html/dest/js/scripts/app.min.js",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/foundation/js/app.coffee",
+		"/Users/danieljones/Downloads/one-page-scroll-animations/index.html",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/foundation/scss/foundation/components/_top-bar.scss",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/foundation/scss/foundation/_settings.scss",
+		"/Users/danieljones/Work/flomio/landingPage/html/src/includes/footer.liquid",
+		"/Users/danieljones/Work/flomio/landingPage/html/src/index.liquid",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/skrollr/skrollr.min.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"imagesLoaded",
+			"contact",
+			"#slide-2",
+			"h2",
+			"slide-2",
+			"h3",
+			"h2",
+			"button",
+			"radius",
+			"avia_framework_globals",
+			"ajax",
+			"../img",
+			"jquery",
+			"viewport",
+			"$orange",
+			"light-b",
+			"bootstra",
+			"tab-bar",
+			".tab-bar",
+			"menu",
+			"ul.m",
+			"menu-icon",
+			"z-",
+			"left:",
+			"right:",
+			"right: 12",
+			"right:12",
+			"range",
+			"arrow",
+			"arrows",
+			"$topbar-arrows",
+			"retina",
+			"../../",
+			"homeHotel",
+			"mountain_hotels",
+			"panel",
+			"p {",
+			"other",
+			"lift",
+			"contact",
+			"hero",
+			"transition",
+			"tool",
+			"tabbar",
+			".left-off-canvas-menu",
+			"inner ",
+			"social",
+			"transition",
+			"panel",
+			"left-off",
+			"panel",
+			"h6",
+			"h5",
+			"widthLimit",
+			"inner",
+			"className",
+			"c_name",
+			"inner-",
+			"body",
+			"footer",
+			"pane",
+			"header",
+			"tab",
+			"header",
+			"doWea",
+			"menu-icon",
+			"off-canvas-",
+			"weather",
+			"footer",
+			"scroll",
+			"scrolltop",
+			"ul",
+			"offc",
+			"menu",
+			"off-canvas-",
+			"off-canvas-list",
+			"ul.off-canvas-list li label",
+			"exit",
+			"back-link",
+			"menu",
+			"close",
+			"menu",
+			"transition",
+			"trans",
+			"menu",
+			"margin",
+			"hover",
+			"orbit-bullet-nav-color",
+			"orbit",
+			"para",
+			"p ",
+			"back",
+			"hover",
+			"tab",
+			"top",
+			"tab-bar",
+			"nav.tab-bar",
+			"nav",
+			"xx",
+			"p ",
+			"button",
+			"input",
+			".button",
+			"input",
+			"doMapDots",
+			"a ",
+			"a.exi",
+			"ul",
+			"exit-",
+			"aside",
+			"nav",
+			"off-c",
+			"input",
+			"menu",
+			"h5",
+			"panel",
+			".comparison-table",
+			"accordion",
+			"content",
+			"comparisonFeaturesToggle",
+			"faq",
+			"tick",
+			"noPadding",
+			"accordion",
+			".content",
+			"mod",
+			"compareIntro",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"../images",
+			"$yellow",
+			"",
+			"region_mountains",
+			"key",
+			"className",
+			"",
+			"medium-4",
+			"medium-3",
+			"velocity()",
+			"../../",
+			"<div class=\"columns small-1 hide-for-medium-up\">\n                  <a class=\"green expandSection closed\"></a>\n                </div>",
+			"&rsquo;",
+			"&lsqou;",
+			"color:#BBB;",
+			"Yumi's",
+			"Stevens",
+			"13px",
+			"Arial",
+			"@include column(",
+			"@include column",
+			"1_5"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 7,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/index.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7020,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4719,
+								4719
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1243.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/includes/layout.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18711,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18703,
+								18703
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1639.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "bower_components/foundation/scss/app.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4304,
+								4304
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3673.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Gruntfile.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4174,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1810,
+								1810
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "bower_components/skrollr/skrollr.js.0.6.17",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 44352,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "bower_components/skrollr/skrollr.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 48225,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								48225,
+								48225
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/*!",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "bower_components/skrollr/skrollr-colours.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4020,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4020,
+								4020
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "bower_components/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7648,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2303,
+								2303
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 574.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 697,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								697,
+								697
+							]
+						],
+						"settings":
+						{
+							"auto_name": "function adjustWindow(){",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "src/includes/scripts.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6261,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4194,
+								4194
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1664.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "flomio.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"templates/includes/scripts.liquid"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

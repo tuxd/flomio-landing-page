@@ -1,0 +1,115 @@
+@mixin rounded($radius: 0.5em) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin round-corner($position, $amount: $default_rounded_amount) {
+border-#{$position}-radius: $amount;
+-webkit-border-#{$position}-radius: $amount;
+}
+@mixin round-corner-mozilla($position, $amount: $default_rounded_amount) {
+-moz-border-radius-#{$position}: $amount;
+}
+
+// Round bottom corners by amount
+@mixin round-bottom-corners($amount: $amount) {
+  @include round-corner("bottom-left", $amount);
+  @include round-corner("bottom-right", $amount);
+  @include round-corner-mozilla("bottomleft", $amount);
+  @include round-corner-mozilla("bottomright", $amount);
+}
+
+@mixin round-top-corners($amount: 5px) {
+  @include round-corner("top-left", $amount);
+  @include round-corner("top-right", $amount);
+  @include round-corner-mozilla("topleft", $amount);
+  @include round-corner-mozilla("topright", $amount);
+}
+
+@mixin round-right-corners($amount: $amount) {
+  @include round-corner("bottom-right", $amount);
+  @include round-corner("top-right", $amount);
+  @include round-corner-mozilla("bottomright", $amount);
+  @include round-corner-mozilla("topright", $amount);
+}
+
+@mixin round-left-corners($amount: $amount) {
+  @include round-corner("bottom-left", $amount);
+  @include round-corner("top-left", $amount);
+  @include round-corner-mozilla("bottomleft", $amount);
+  @include round-corner-mozilla("topleft", $amount);
+}
+
+@mixin opacity($value){
+  $IEValue: $value*100;
+  opacity: $value;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity="+$IEValue+")";
+  filter: alpha(opacity=$IEValue);
+}
+
+@mixin bg-transition($speed, $tween:""){
+  -webkit-transition: background-color $speed ease-in-out;
+  -moz-transition: background-color $speed ease-in-out;
+  -o-transition: background-color $speed ease-in-out;
+  transition: background-color $speed ease-in-out;
+
+  @if $tween != "" {
+    -webkit-transition: background-color $speed $tween;
+    -moz-transition: background-color $speed $tween;
+    -o-transition: background-color $speed $tween;
+    transition: background-color $speed $tween;
+  }
+}
+
+@mixin visibility($speed){
+  -webkit-transition: visibility $speed ease-in-out;
+  -moz-transition: visibility $speed ease-in-out;
+  -o-transition: visibility $speed ease-in-out;
+  transition: visibility $speed ease-in-out;
+}
+
+@mixin color-transition($speed){
+  -webkit-transition: color $speed ease-in-out;
+  -moz-transition: color $speed ease-in-out;
+  -o-transition: color $speed ease-in-out;
+  transition: color $speed ease-in-out;
+}
+
+@mixin all-transition($speed){
+  -webkit-transition: all $speed ease-in-out;
+  -moz-transition: all $speed ease-in-out;
+  -o-transition: all $speed ease-in-out;
+  transition: all $speed ease-in-out;
+}
+
+@mixin transition($speed, $trans, $easing:ease-in-out){
+  -webkit-transition: $trans $speed $easing;
+  -moz-transition: $trans $speed $easing;
+  -o-transition: $trans $speed $easing;
+  transition: $trans $speed $easing;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $top $left $blur $color;
+    -moz-box-shadow:inset $top $left $blur $color;
+    box-shadow:inset $top $left $blur $color;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $color;
+    -moz-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+  }
+}
+
+@mixin background-image-retina($file, $type, $width, $height) {
+  background-image: url(#{$file}.#{$type});
+
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 144dpi) {
+    & {
+      background-image: url(#{$file}_2x.#{$type});
+      background-size: $width $height;
+    }
+  }
+}

@@ -1,0 +1,767 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"window",
+				"windowOffset"
+			],
+			[
+				"Hel",
+				"Helvetica"
+			],
+			[
+				"scro",
+				"scrollTop"
+			],
+			[
+				"te",
+				"text-transform"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"light",
+				"light-blue"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"secondray",
+				"secondary-color"
+			],
+			[
+				"transfo",
+				"transform"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"content",
+				"contentWrap"
+			],
+			[
+				"sec",
+				"secondary-green"
+			],
+			[
+				"grey",
+				"grey-blog"
+			],
+			[
+				"secon",
+				"secondary-blue"
+			],
+			[
+				"second",
+				"secondary-blue"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"margin-t",
+				"margin-bottom"
+			],
+			[
+				"asap",
+				"asapregular"
+			],
+			[
+				"border-c",
+				"border-color"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"as",
+				"asapbold"
+			],
+			[
+				"fo",
+				"font-family"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"grey-",
+				"grey-blog"
+			],
+			[
+				"b",
+				"border"
+			],
+			[
+				"ta",
+				"table-cell"
+			],
+			[
+				"icon",
+				"icomoon"
+			],
+			[
+				"secondary",
+				"secondary-orange"
+			],
+			[
+				"mouse",
+				"mouseover"
+			],
+			[
+				"gr",
+				"grey-black"
+			],
+			[
+				"secondar",
+				"secondary-blue-hover"
+			],
+			[
+				"se",
+				"secondary-aqua-hover"
+			],
+			[
+				"gre",
+				"grey-lighter"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"seco",
+				"secondary-green"
+			],
+			[
+				"text-a",
+				"text-transform"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"secondaru",
+				"secondary-blue-hover"
+			],
+			[
+				"blue",
+				"secondary-blue"
+			],
+			[
+				"grey-li",
+				"grey-lighter"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"cor",
+				"color"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"tex-",
+				"text-transform"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"bro",
+				"border-left"
+			],
+			[
+				"t",
+				"text-transform"
+			],
+			[
+				"borde",
+				"border-collapse"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"workExapl",
+				"workExamples"
+			],
+			[
+				"work",
+				"workLarge"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"com",
+				"commonFuncts"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/danieljones/Work/flomio/landingPage2/source/template-home-parallax.php",
+			"settings":
+			{
+				"buffer_size": 18303,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "{% extends layout %}\n\n	{% block body %}\n	<div id=\"buttonRow-fixed\">\n		<div class=\"row clearfix\">\n		    <div href=\"#\" class=\"columns small-6 large-3 button green\"\n		    data-top=\"margin-top:0px;\" data-200-top=\"margin-top:1500px;\" data-anchor-target=\"#slide-2\"><span class=\"icon-tags icon\"></span><p>Tags</p></div>\n		    <div class=\"columns small-6 large-3 button component blue\"\n		    data-top=\"margin-top:0px;\" data-200-top=\"margin-top:1500px;\" data-anchor-target=\"#slide-2\"><span class=\"icon-book icon\"></span><p>Readers</p></div>\n		    <div class=\"columns small-6 large-3 button component yellow\"\n		    data-top=\"margin-top:0px;\" data-200-top=\"margin-top:1500px;\" data-anchor-target=\"#slide-2\"><span class=\"icon-keyboard-o icon\"></span><p>Middleware</p></div>\n		    	<div class=\"columns small-6 large-3 button component red\"\n		    data-top=\"margin-top:0px;\" data-200-top=\"margin-top:1500px;\" data-anchor-target=\"#slide-2\"><span class=\"icon-globe icon\"></span><p>Web Services</p></div>\n		</div>\n	</div>\n	{% include \"header\" %}\n\n\n	<!-- SKROLLR SECTIONS -->\n\n\n\n		<main>\n	        <section id=\"slide-1\" class=\"homeSlide\">\n        		<div class=\"row\" data-start=\"opacity: 1;\" data-700-start=\"opacity:0;\" data-anchor-target=\"#slide-1\">\n		    		<h2>We help turn <strong>physical engagements</strong> into <strong>web-based events</strong>.</h2>\n		    		<h3>Flomio provides the ability to take your <strong>physical engagements</strong> into the web-based world.  We offer <strong>hardware, mobile apps</strong>, and <strong>cloud infrastructure</strong> into <strong>Internet of Things</strong> enabled applications.</h3>\n\n			    	<div class=\"contact-us-box-home\">\n			    		<h3 class=\"text-center\"><a href=\"contact\"><strong>Contact us</strong></a> today to find out more</h3>\n		    		</div>\n		    	</div>\n		    </section>\n       	 \n		    \n		    <section id=\"slide-2\" class=\"homeSlide\">   \n		    	<div class=\"bcg\" data-center=\"background-position: 50% 0px;\" data-start=\"background-position: 50% -100px;\" data-end=\"background-position: 50% 100px;\" data-anchor-target=\"#slide-2\">\n		    		<div class=\"row fourthings\">\n		    			<div class=\"columns small-8 medium-6 small-centered large-uncentered large-3 xlarge-2\">\n		    				<img src=\"<?php echo get_bloginfo('template_url'); ?>/images/landing/percent-95.svg\" class=\"percent-95\" id=\"pie\" data-200-end=\"opacity: 0;\" data--500-end=\"opacity: 0;\" data-top=\"opacity: 1;\" data-anchor-target=\"#slide-2\"/>\n		    			</div>\n		    			<div class=\"columns small-12 small-centered large-uncentered large-9 xlarge-10\">\n			    			<h2 data-200-end=\"opacity: 0;\" data-top=\"opacity: 1;\" data-anchor-target=\"#slide-2\"><strong>95%</strong> of all <strong>Internet of Things</strong> apps are built with the <strong>same four components</strong>.</h2>\n						</div>\n\n						\n							<div class=\"row clearfix\" id=\"buttonRow\">\n							    <div href=\"#\" class=\"columns small-6 large-3 button green\" data-anchor-target=\"#slide-2\"><span class=\"icon-tags icon\"></span><p>Tags</p></div>\n							    <div class=\"columns small-6 large-3 button component blue\" data-anchor-target=\"#slide-2\"><span class=\"icon-book icon\"></span><p>Readers</p></div>\n							    <div class=\"columns small-6 large-3 button component yellow\" data-anchor-target=\"#slide-2\"><span class=\"icon-keyboard-o icon\"></span><p>Middleware</p></div>\n							    <div class=\"columns small-6 large-3 button component red\" data-anchor-target=\"#slide-2\"><span class=\"icon-globe icon\"></span><p>Web Services</p></div>\n							</div>\n						\n					</div>\n				</div>\n		    </section>\n\n		    <section id=\"slide-3\" class=\"homeSlide\" data-start=\"background-color:rgb(0,0,0);\" data-end=\"background-color:rgb(34,192,149);\" data-anchor-target=\"#slide-3\">    \n	    		<div class=\"row\">\n					<div class=\" columns xlarge-8 minHeight\">\n						<h2 class=\"text-left\"><span class=\"icon-tags icon iconBig\"></span>Tags</h2>\n						<h3 class=\"text-left\">\n						Flomio is a Market Leader in tag curation. \n						Strong relations with TI, Kovio, CXJ RFID, NXP, Verayo, GemaTouch and Capift.</h3>\n					</div>\n						<img src=\"<?php echo get_bloginfo('template_url'); ?>/images/landing/tags.png\" class=\"tags\" id=\"tagsImage\" data--500-start=\"transform: translate(387px,0px)\" data-start=\"transform: translate(0px,0px)\" data-end=\"transform: translate(387px,0px)\" data-anchor-target=\"#slide-3\"/>\n				</div>\n			</section>\n\n			<section id=\"slide-4\" class=\"homeSlide\">    \n				<div class=\"bcg\" data-center=\"background-position: 50% 0px;\" data-top-bottom=\"background-position: 50% -100px;\" data-anchor-target=\"#slide-4\">\n					<div class=\"row padding1\">\n			    		<div class=\"columns xlarge-8 xlarge-push-4\">\n			    			<h2 class=\"text-left\"><span class=\"icon-book icon iconBig\"></span>Readers</h2>\n			    			<h3 class=\"text-left\">Flomio&rsquo;s FloJack is the world&rsquo;s most practical NFC reader. Kickstarter success has driven custom build requests where IP is reused.</h3>\n			    		</div>\n			    	</div>\n	    		</div>\n			</section>\n\n			<section id=\"slide-5\" class=\"homeSlide\" data--500-start=\"background-color:rgb(58,129,227);\" data-start=\"background-color:rgb(232,173,81);\" data-anchor-target=\"#slide-5\">\n				<div class=\"bcg\">\n					<div class=\"row padding1\">\n						<div class=\"columns large-6\">\n							<h2 class=\"text-left\"><span class=\"icon-keyboard-o icon iconBig\"></span>Middleware</h2>\n							<h3 class=\"text-left\">\n							Flomio&rsquo;s consumer-facing middlewear educates the market and establishes social proof.\n							</h3>\n						</div>\n							<img src=\"<?php echo get_bloginfo('template_url'); ?>/images/landing/middleware.png\" class=\"columns large-6\" id=\"middleware\" data-bottom-top=\"transform: scale(0.1);\" data-top-bottom=\"transform: scale(0.1);\" data-center=\"transform: scale(1);\" data-anchor-target=\"#slide-5\"/>\n					</div>\n			    </div>\n			</section>\n\n			<section id=\"slide-6\" class=\"homeSlide\" data-bottom=\"background-color:rgb(232,173,81);\" data-top=\"background-color:rgb(201,70,70);\" data-anchor-target=\"#slide-6\">    \n				<div class=\"bcg\">\n					<div class=\"row padding1\">\n		    			<div class=\"columns xlarge-4 show-for-xlarge-up\">\n			    			<img src=\"<?php echo get_bloginfo('template_url'); ?>/images/landing/web-services.png\" id=\"webServices\" data-bottom-top=\"transform: scale(0.1);\" data-top-bottom=\"transform: scale(0.1);\" data-center=\"transform: scale(1);\" data-anchor-target=\"#slide-6\" />\n			    		</div>\n						<div class=\"columns xlarge-8\">\n			    			<h2 class=\"text-left\"><span class=\"icon-globe icon iconBig\"></span>Web Services</h2>\n			    			<h3 class=\"text-left\">Flomio has built <strong>NFC+BLE-specific</strong> software that accelerates solution implementation.</h3>\n			    		</div>\n			    		<div class=\"columns hide-for-xlarge-up\">\n			    			<img src=\"<?php echo get_bloginfo('template_url'); ?>/images/landing/web-services.png\" id=\"webServices\" data-bottom-top=\"transform: scale(0.1);\" data-top-bottom=\"transform: scale(0.1);\" data-center=\"transform: scale(1);\" data-anchor-target=\"#slide-6\" />\n			    		</div>\n			    	</div>\n			    </div>\n			</section>   \n		</main>\n\n\n	{% include \"footer\" %}\n\n{% endblock %}  ",
+			"file": "src/index.liquid",
+			"file_size": 7001,
+			"file_write_time": 130523217750000000,
+			"settings":
+			{
+				"buffer_size": 7076,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/includes/scripts.liquid",
+			"settings":
+			{
+				"buffer_size": 7012,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bower_components/foundation/scss/app.scss",
+			"settings":
+			{
+				"buffer_size": 14699,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"sublime.executable_path()",
+			"import sublime"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/danieljones/Work/flomio/landingPage2/html/bower_components/main.js",
+		"/Users/danieljones/Work/flomio/landingPage2/html/src/includes/layout.liquid",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/skrollr/skrollr-colours.js",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/skrollr/skrollr.js",
+		"/Users/danieljones/Work/flomio/landingPage/html/src/index.liquid",
+		"/Users/danieljones/Work/flomio/landingPage/html/src/includes/layout.liquid",
+		"/Users/danieljones/Work/flomio/landingPage/html/Gruntfile.js",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/skrollr-colours.min.js",
+		"/Users/danieljones/Work/peakStays/foundation5/assets/scss/animate.scss",
+		"/Users/danieljones/Downloads/parallax-part-2/index.html",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/foundation/scss/foundation/components/_fonts.scss",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/foundation/scss/foundation.scss",
+		"/Users/danieljones/Work/flomio/landingPage/html/src/includes/scripts.liquid",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/foundation/js/app.js",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/foundation/js/main.js",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/foundation/scss/app.scss",
+		"/Users/danieljones/Downloads/parallax-part-2/css/main.css",
+		"/Users/danieljones/Work/flomio/landingPage/html/src/includes/header.liquid",
+		"/Users/danieljones/Downloads/parallax-part-2/js/_main.js",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/foundation/scss/foundation/components/_buttons.scss",
+		"/Users/danieljones/Work/flomio/landingPage/html/dest/js/app.min.js",
+		"/Users/danieljones/Work/flomio/landingPage/html/dest/js/scripts/app.min.js",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/foundation/js/app.coffee",
+		"/Users/danieljones/Downloads/one-page-scroll-animations/index.html",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/foundation/scss/foundation/components/_top-bar.scss",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/foundation/scss/foundation/_settings.scss",
+		"/Users/danieljones/Work/flomio/landingPage/html/src/includes/footer.liquid",
+		"/Users/danieljones/Work/flomio/landingPage/html/bower_components/skrollr/skrollr.min.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"<open files>",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".padding",
+			"padding",
+			"header",
+			"body",
+			"pie",
+			"main",
+			"htmlbody",
+			"contact-us-box-home",
+			"slide1",
+			"#slide-3 ",
+			"main",
+			"includ",
+			"homeSlide",
+			"centerSecondFrame",
+			"skroll",
+			"#slide-4",
+			"#slide-4 h2",
+			"#middleware",
+			"tagsImage",
+			"dl, ol, ul",
+			"Y:",
+			"button",
+			"head",
+			"header",
+			"imagesLoaded",
+			"contact",
+			"#slide-2",
+			"h2",
+			"slide-2",
+			"h3",
+			"h2",
+			"button",
+			"radius",
+			"avia_framework_globals",
+			"ajax",
+			"../img",
+			"jquery",
+			"viewport",
+			"$orange",
+			"light-b",
+			"bootstra",
+			"tab-bar",
+			".tab-bar",
+			"menu",
+			"ul.m",
+			"menu-icon",
+			"z-",
+			"left:",
+			"right:",
+			"right: 12",
+			"right:12",
+			"range",
+			"arrow",
+			"arrows",
+			"$topbar-arrows",
+			"retina",
+			"../../",
+			"homeHotel",
+			"mountain_hotels",
+			"panel",
+			"p {",
+			"other",
+			"lift",
+			"contact",
+			"hero",
+			"transition",
+			"tool",
+			"tabbar",
+			".left-off-canvas-menu",
+			"inner ",
+			"social",
+			"transition",
+			"panel",
+			"left-off",
+			"panel",
+			"h6",
+			"h5",
+			"widthLimit",
+			"inner",
+			"className",
+			"c_name",
+			"inner-",
+			"body",
+			"footer",
+			"pane",
+			"header",
+			"tab",
+			"header",
+			"doWea",
+			"menu-icon",
+			"off-canvas-",
+			"weather",
+			"footer",
+			"scroll",
+			"scrolltop",
+			"ul",
+			"offc",
+			"menu",
+			"off-canvas-",
+			"off-canvas-list",
+			"ul.off-canvas-list li label",
+			"exit",
+			"back-link",
+			"menu",
+			"close",
+			"menu",
+			"transition",
+			"trans",
+			"menu",
+			"margin",
+			"hover",
+			"orbit-bullet-nav-color",
+			"orbit",
+			"para",
+			"p ",
+			"back",
+			"hover",
+			"tab",
+			"top",
+			"tab-bar",
+			"nav.tab-bar",
+			"nav",
+			"xx",
+			"p ",
+			"button",
+			"input",
+			".button",
+			"input"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"../images",
+			"$yellow",
+			"",
+			"region_mountains",
+			"key",
+			"className",
+			"",
+			"medium-4",
+			"medium-3",
+			"velocity()",
+			"../../",
+			"<div class=\"columns small-1 hide-for-medium-up\">\n                  <a class=\"green expandSection closed\"></a>\n                </div>",
+			"&rsquo;",
+			"&lsqou;",
+			"color:#BBB;",
+			"Yumi's",
+			"Stevens",
+			"13px",
+			"Arial",
+			"@include column(",
+			"@include column",
+			"1_5"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/danieljones/Work/flomio/landingPage2/source/template-home-parallax.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18303,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7011,
+								7011
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2776.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/index.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7076,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4575,
+								4575
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 995.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/includes/scripts.liquid",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7012,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6784,
+								6784
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2229.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "bower_components/foundation/scss/app.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14699,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6846,
+								6846
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5720.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "untitled.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"templates/includes/scripts.liquid"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 274.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

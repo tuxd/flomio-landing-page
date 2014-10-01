@@ -1,0 +1,114 @@
+{% extends layout %}
+
+	{% block body %}
+	<div id="buttonRow-fixed">
+		<div class="row clearfix">
+		    <div href="#" class="columns small-6 large-3 button green"
+		    data-top="margin-top:0px;" data-200-top="margin-top:1500px;" data-anchor-target="#slide-2"><span class="icon-tags icon"></span><p>Tags</p></div>
+		    <div class="columns small-6 large-3 button component blue"
+		    data-top="margin-top:0px;" data-200-top="margin-top:1500px;" data-anchor-target="#slide-2"><span class="icon-book icon"></span><p>Readers</p></div>
+		    <div class="columns small-6 large-3 button component yellow"
+		    data-top="margin-top:0px;" data-200-top="margin-top:1500px;" data-anchor-target="#slide-2"><span class="icon-keyboard-o icon"></span><p>Middleware</p></div>
+		    	<div class="columns small-6 large-3 button component red"
+		    data-top="margin-top:0px;" data-200-top="margin-top:1500px;" data-anchor-target="#slide-2"><span class="icon-globe icon"></span><p>Web Services</p></div>
+		</div>
+	</div>
+	{% include "header" %}
+
+
+	<!-- SKROLLR SECTIONS -->
+
+
+
+		<main>
+	        <section id="slide-1" class="homeSlide">
+        		<div class="row" data-start="opacity: 1;" data-700-start="opacity:0;" data-anchor-target="#slide-1">
+		    		<h2>We help turn <strong>physical engagements</strong> into <strong>web-based events</strong>.</h2>
+		    		<h3>Flomio provides the ability to take your <strong>physical engagements</strong> into the web-based world.  We offer <strong>hardware, mobile apps</strong>, and <strong>cloud infrastructure</strong> into <strong>Internet of Things</strong> enabled applications.</h3>
+
+			    	<div class="contact-us-box-home">
+			    		<h3 class="text-center"><a href="contact"><strong>Contact us</strong></a> today to find out more</h3>
+		    		</div>
+		    	</div>
+		    </section>
+       	 
+		    
+		    <section id="slide-2" class="homeSlide">   
+		    	<div class="bcg" data-center="background-position: 50% 0px;" data-start="background-position: 50% -100px;" data-end="background-position: 50% 100px;" data-anchor-target="#slide-2">
+		    		<div class="row fourthings">
+		    			<div class="columns small-8 medium-6 small-centered large-uncentered large-3 xlarge-2">
+		    				<img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/percent-95.svg" class="percent-95" id="pie" data-200-end="opacity: 0;" data--500-end="opacity: 0;" data-top="opacity: 1;" data-anchor-target="#slide-2"/>
+		    			</div>
+		    			<div class="columns small-12 small-centered large-uncentered large-9 xlarge-10">
+			    			<h2 data-200-end="opacity: 0;" data-top="opacity: 1;" data-anchor-target="#slide-2"><strong>95%</strong> of all <strong>Internet of Things</strong> apps are built with the <strong>same four components</strong>.</h2>
+						</div>
+
+						
+							<div class="row clearfix" id="buttonRow">
+							    <div href="#" class="columns small-6 large-3 button green" data-anchor-target="#slide-2"><span class="icon-tags icon"></span><p>Tags</p></div>
+							    <div class="columns small-6 large-3 button component blue" data-anchor-target="#slide-2"><span class="icon-book icon"></span><p>Readers</p></div>
+							    <div class="columns small-6 large-3 button component yellow" data-anchor-target="#slide-2"><span class="icon-keyboard-o icon"></span><p>Middleware</p></div>
+							    <div class="columns small-6 large-3 button component red" data-anchor-target="#slide-2"><span class="icon-globe icon"></span><p>Web Services</p></div>
+							</div>
+						
+					</div>
+				</div>
+		    </section>
+
+		    <section id="slide-3" class="homeSlide" data-start="background-color:rgb(0,0,0);" data-end="background-color:rgb(34,192,149);" data-anchor-target="#slide-3">    
+	    		<div class="row">
+					<div class=" columns xlarge-8 minHeight">
+						<h2 class="text-left"><span class="icon-tags icon iconBig"></span>Tags</h2>
+						<h3 class="text-left">
+						Flomio is a Market Leader in tag curation. 
+						Strong relations with TI, Kovio, CXJ RFID, NXP, Verayo, GemaTouch and Capift.</h3>
+					</div>
+						<img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/tags.png" class="tags" id="tagsImage" data--500-start="transform: translate(387px,0px)" data-start="transform: translate(0px,0px)" data-end="transform: translate(387px,0px)" data-anchor-target="#slide-3"/>
+				</div>
+			</section>
+
+			<section id="slide-4" class="homeSlide">    
+				<div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-4">
+					<div class="row">
+			    		<div class="columns xlarge-8 xlarge-push-4">
+			    			<h2 class="text-left"><span class="icon-book icon iconBig"></span>Readers</h2>
+			    			<h3 class="text-left">Flomio&rsquo;s FloJack is the world&rsquo;s most practical NFC reader. Kickstarter success has driven custom build requests where IP is reused.</h3>
+			    		</div>
+			    	</div>
+	    		</div>
+			</section>
+
+			<section id="slide-5" class="homeSlide" data--500-start="background-color:rgb(58,129,227);" data-start="background-color:rgb(232,173,81);" data-anchor-target="#slide-5">
+				<div class="bcg">
+					<div class="row">
+						<div class="columns large-6">
+							<h2 class="text-left"><span class="icon-keyboard-o icon iconBig"></span>Middleware</h2>
+							<h3 class="text-left">
+							Flomio&rsquo;s consumer-facing middlewear educates the market and establishes social proof.
+							</h3>
+						</div>
+							<img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/middleware.png" class="columns large-6" id="middleware" data-bottom-top="transform: scale(0.1);" data-top-bottom="transform: scale(0.1);" data-center="transform: scale(1);" data-anchor-target="#slide-5"/>
+					</div>
+			    </div>
+			</section>
+
+			<section id="slide-6" class="homeSlide" data-bottom="background-color:rgb(232,173,81);" data-top="background-color:rgb(201,70,70);" data-anchor-target="#slide-6">    
+				<div class="bcg">
+	    			<div class="columns xlarge-4 show-for-xlarge-up">
+		    			<img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/web-services.png" id="webServices" data-bottom-top="transform: scale(0.1);" data-top-bottom="transform: scale(0.1);" data-center="transform: scale(1);" data-anchor-target="#slide-6" />
+		    		</div>
+					<div class="columns xlarge-8">
+		    			<h2 class="text-left"><span class="icon-globe icon iconBig"></span>Web Services</h2>
+		    			<h3 class="text-left">Flomio has built <strong>NFC+BLE-specific</strong> software that accelerates solution implementation.</h3>
+		    		</div>
+		    		<div class="columns hide-for-xlarge-up">
+		    			<img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/web-services.png" id="webServices" data-bottom-top="transform: scale(0.1);" data-top-bottom="transform: scale(0.1);" data-center="transform: scale(1);" data-anchor-target="#slide-6" />
+		    		</div>
+			    </div>
+			</section>   
+		</main>
+
+
+	{% include "footer" %}
+
+{% endblock %}  
