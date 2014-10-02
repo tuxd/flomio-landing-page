@@ -1764,7 +1764,7 @@ button, .button {
   .xlarge-text-justify {
     text-align: justify !important; } }
 
-@media only screen and (min-width:75.063em) and (max-width:99999999em) {
+@media only screen and (min-width:75.063em) and (max-width:9999999em) {
   .xxlarge-only-text-left {
     text-align: left !important; }
   .xxlarge-only-text-right {
@@ -2494,7 +2494,7 @@ html, button, input, select, textarea {
 body {
   font-size: 1em;
   line-height: 1.4;
-  overflow-x: hidden; }
+  overflow-x: initial; }
 
 .homeSlide {
   min-height: 700px;
@@ -2520,6 +2520,10 @@ body {
   .homeSlide h4 {
     color: #222222;
     margin-top: 2em; }
+
+.homeSlide#slide-1 {
+  min-height: inherit;
+  height: auto; }
 
 .bcg {
   min-height: 700px; }
@@ -2647,7 +2651,30 @@ main {
 /* Slide 1 */
 #slide-1 {
   /*background-image:url('../images/16_blur.jpg');*/
-  background: #eeeef1; }
+  background: #eeeef1;
+  padding-bottom: 5em;
+  width: 100%;
+  position: relative; }
+  #slide-1 .iphone-touch {
+    height: 230px;
+    position: relative; }
+  #slide-1 .hand {
+    width: 400px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 10; }
+  #slide-1 .reader, #slide-1 .reader-off {
+    width: 190px;
+    position: absolute;
+    margin: 3em 0 0 0;
+    left: -70px;
+    z-index: 12; }
+  #slide-1 .reader-off {
+    z-index: 11; }
+
+#slide-2 h3, #slide-3 h3, #slide-4 h3, #slide-5 h3, #slide-6 h3 {
+  text-align: left; }
 
 /* Slide 2 */
 #slide-2 .bcg {
@@ -2656,6 +2683,20 @@ main {
   background-size: cover;
   vertical-align: center;
   text-align: center; }
+
+.youtube-video {
+  width: 100%;
+  margin: 2em auto;
+  max-width: 700px;
+  position: relative;
+  display: block;
+  padding-bottom: 70%; }
+  .youtube-video #flojack-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
 
 /* Slide 4 */
 #slide-3 {
@@ -2704,7 +2745,7 @@ main {
   padding: 3px 10px; }
 
 #buttonRow {
-  padding-top: 3em; }
+  padding-top: 1.5em; }
 
 #buttonRow-fixed {
   display: none;
@@ -2724,36 +2765,48 @@ main {
 .button {
   display: block;
   margin: 0; }
+  .button:hover .icon, .button:hover p {
+    color: white; }
   .button .icon {
     font-size: 1.25em;
     display: inline-block;
     padding-right: 0.25em;
-    padding-top: 0.125em; }
+    padding-top: 0.125em;
+    color: #333333;
+    -webkit-transition: color 300ms ease-out;
+    transition: color 300ms ease-out; }
   .button p {
     margin: 0;
     padding: 0;
     display: inline-block;
     color: white;
+    color: #333333;
     font-family: 'Lato', Arial, Helvetica;
     text-transform: capitalize;
     font-weight: 700;
-    vertical-align: top; }
+    vertical-align: top;
+    -webkit-transition: color 300ms ease-out;
+    transition: color 300ms ease-out; }
   .button.green {
-    background: #22c095; }
+    background: #d5d5d7;
+    /*background:#d5d5d7;*/ }
     .button.green:hover {
-      background: #136951; }
+      background: #a1a1a5; }
   .button.blue {
-    background: #3a82e3; }
+    background: #cacbcd;
+    /*background:#cacbcd;*/ }
     .button.blue:hover {
-      background: #1752a0; }
+      background: #96989b; }
   .button.yellow {
-    background: #e8ad51; }
+    background: #bebfc1;
+    /*background:#bebfc1;*/ }
     .button.yellow:hover {
-      background: #ba7a19; }
+      background: #8a8c8f; }
   .button.red {
-    background: #c94646; }
+    background: #b3b3b5;
+    /*background:#b3b3b5;*/ }
     .button.red:hover {
-      background: #832626; }
+      background: #7f7f83; }
 
 #pie {
   margin-top: 1em; }
@@ -2779,6 +2832,8 @@ main {
 
 #slide-2 {
   background: black; }
+  #slide-2 h2, #slide-2 h3 {
+    text-align: center; }
 
 #slide-3 h2, #slide-4 h2, #slide-5 h2, #slide-6 h2 {
   padding-top: 4em;
@@ -2957,37 +3012,6 @@ main {
   transform: rotateY(-10deg) rotateX(-20deg) rotateZ(-10deg) perspective(600px);
   display: block; }
 
-@media only screen {
-  /* Slide 4 */
-  .homeSlide h2 {
-    font-size: 2em;
-    padding-top: 1em; }
-  .homeSlide h3 {
-    font-size: 1.125em; }
-  #slide-2 .bcg {
-    background: black url('../images/landing/16_blur.jpg');
-    -webkit-background-size: cover cover;
-    background-size: cover;
-    vertical-align: center;
-    text-align: center; }
-  #slide-4 .bcg {
-    background: #3a82e3 url('../images/landing/readersBg.jpg');
-    -webkit-background-size: cover cover;
-    background-size: cover; } }
-
-@media only screen and (min-width:30.063em) {
-  .homeSlide h3 {
-    font-size: 1.375em; }
-  #puzzle {
-    width: 375px;
-    min-height: 300px; }
-  #webServices {
-    width: 375px;
-    height: 250px; }
-  #webServices-piece {
-    width: 126px;
-    height: 169px; } }
-
 #loader {
   background: black;
   opacity: 0.7;
@@ -3003,8 +3027,50 @@ main {
     max-height: 11px;
     max-width: 16px; }
 
+@media only screen {
+  /* Slide 4 */
+  .homeSlide h2 {
+    font-size: 2em;
+    padding-top: 1em; }
+  .homeSlide h3 {
+    font-size: 1.125em; }
+  #slide-2 .bcg {
+    background: black url('../images/landing/16_blur.jpg');
+    -webkit-background-size: cover cover;
+    background-size: cover;
+    vertical-align: center;
+    text-align: center; }
+  #slide-4 .bcg {
+    background: #cacbcd url('../images/landing/readersBg.jpg');
+    -webkit-background-size: cover cover;
+    background-size: cover; } }
+
+@media only screen and (min-width:30.063em) {
+  .homeSlide h3 {
+    font-size: 1.375em; }
+  #puzzle {
+    width: 375px;
+    min-height: 300px; }
+  #webServices {
+    width: 375px;
+    height: 250px; }
+  #webServices-piece {
+    width: 126px;
+    height: 169px; }
+  #slide-1 .iphone-touch {
+    height: 230px; }
+  #slide-1 .hand {
+    width: 600px; }
+  #slide-1 .reader, #slide-1 .reader-off {
+    width: 356px;
+    left: -200px; } }
+
 @media only screen and (min-width:48em) {
   /* Slide 4 */
+  .easier-way {
+    margin-top: -35px; }
+  .youtube-video {
+    padding-bottom: 45%; }
   .homeSlide h2 {
     font-size: 3em;
     padding-top: 1.5em; }
@@ -3012,10 +3078,17 @@ main {
     font-size: 1.5em; }
   .homeSlide h2, .homeSlide h3 {
     width: 90%; }
+  #slide-1 .iphone-touch {
+    height: 330px; }
+  #slide-1 .hand {
+    width: 800px; }
+  #slide-1 .reader, #slide-1 .reader-off {
+    margin-top: 4em;
+    width: 475px;
+    left: -240px; }
   #slide-2 h2 {
     font-size: 2.5em;
     padding-top: 1em;
-    text-align: left;
     vertical-align: center; }
   #slide-3 h2, #slide-4 h2, #slide-5 h2, #slide-6 h2 {
     padding-top: 3em; }
@@ -3028,7 +3101,7 @@ main {
     vertical-align: center;
     text-align: center; }
   #slide-4 .bcg {
-    background: #3a82e3 url('../images/landing/readersBg.jpg');
+    background: #cacbcd url('../images/landing/readersBg.jpg');
     -webkit-background-size: 180% 180%;
     background-size: 180%; }
   #slide-6 .bcg {
@@ -3045,7 +3118,9 @@ main {
 
 @media only screen and (min-width:60.063em) {
   .homeSlide h3 {
-    font-size: 2em; } }
+    font-size: 2em; }
+  .youtube-video {
+    padding-bottom: 38%; } }
 
 @media only screen and (min-width:60.063em) {
   #puzzle {
@@ -3057,7 +3132,17 @@ main {
     height: 443px; }
   #webServices-piece {
     width: 223px;
-    height: 300px; } }
+    height: 300px; }
+  #slide-1 .reader, #slide-1 .reader-off {
+    margin: 5em 0 0 23%; } }
+
+@media only screen and (min-width:75.063em) {
+  #slide-1 .reader, #slide-1 .reader-off {
+    margin: 5em 0 0 35%; } }
+
+@media screen and (min-width: 100em) {
+  #slide-1 .reader, #slide-1 .reader-off {
+    margin: 5em 0 0 50%; } }
 
 /*******SKROLLR FIXES***********/
 #skrollr-body {

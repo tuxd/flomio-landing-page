@@ -77,7 +77,7 @@
 
 <!-- NEW CSS -->
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="<?php echo get_bloginfo('template_url'); ?>/css/app.min.css?v1.3" type="text/css" media="screen"/>
+<link rel="stylesheet" href="<?php echo get_bloginfo('template_url'); ?>/css/app.min.css?v1.2.4" type="text/css" media="screen"/>
 
 <!-- mobile setting -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -193,17 +193,27 @@
 
 		<main>
 	        <section id="slide-1" class="homeSlide">
-        		<div class="row padding1" data-start="opacity: 1;" data-700-start="opacity:0;" data-anchor-target="#slide-1">
-		    		<h2>We help turn <strong>physical engagements</strong> into <strong>web-based events</strong>.</h2>
-		    		<h3>Flomio provides the ability to take your <strong>physical engagements</strong> into the web-based world.  We offer <strong>hardware, mobile apps</strong>, and <strong>cloud infrastructure</strong> into <strong>Internet of Things</strong> enabled applications.</h3>
-
-			    	<div class="contact-us-box-home">
-			    		<h3 class="text-center"><a href="contact"><strong>Contact us</strong></a> today to find out more</h3>
+        		<div class="row padding1">
+		    			<h2 class="text-left easier-way">An easier way to <strong>play</strong>.</h2>
 		    		</div>
 
-		    		<h4 class="text-center">Scroll down to learn more</h4>
+		    		<div class="iphone-touch" id="iphone-touch">
+              
+              <img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/iphone6-hand.jpg"  data--300-top="transform: translate(400px,0px)" data-100-top="transform: translate(0px,0px)" data-300-top="transform: translate(200px,0px)" class="hand"/>
 
-		    	</div>
+              <img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/reader-on.jpg" data-300-top="opacity:0" data--300-top="opacity:0" data-100-top="opacity:1" class="reader"/>
+
+              <img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/reader-off.jpg" class="reader-off"/>
+
+            </div>
+
+            <div class="row padding1" data-start="opacity: 1;" data-700-start="opacity:0;" data-anchor-target="#slide-1">
+		    			<h3 style="margin-top:20px;">We help developers integrate the <strong>best proximity technologies</strong>.</h3>
+            	<div class="contact-us-box-home" style="margin: inherit;">
+		    		  	<h3><a title="Learn more" href="what-is-nfc">Start using NFC, BLE, and UHF RFID today.</a></h3>
+		    			</div>
+		    		</div>
+
 		    </section>
        	 
 		    
@@ -211,11 +221,23 @@
 		    	<div class="bcg" data-100-top="background-position: 50% -30px;" data-top-bottom="background-position: 50% 80px;" data-anchor-target="#slide-2">
 
 		    		<div class="row fourthings padding1">
+		    			
+<!--
 		    			<div class="columns small-8 medium-6 small-centered large-uncentered large-3 xlarge-2">
 		    				<img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/percent-95.svg" class="percent-95" id="pie" data-start="opacity: 0;" data-center="opacity: 1;" data-anchor-target="#slide-2"/>
-		    			</div>
-		    			<div class="columns small-12 small-centered large-uncentered large-9 xlarge-10">
-			    			<h2 data-400-top="opacity: 0;" data-top="opacity: 1;" data-smooth-scrolling="true" data-anchor-target="#slide-2"><strong>95%</strong> of all <strong>Internet of Things</strong> apps are built with the <strong>same four components</strong>.</h2>
+		    			</div> -->
+
+		    			<div class="columns small-12 small-centered large-uncentered">
+			    			<h2 data-400-top="opacity: 0;" data-top="opacity: 1;" data-smooth-scrolling="true" data-anchor-target="#slide-2"><strong>Proximity</strong> applications are often built with the<br /><strong>same four components</strong>.</h2>
+
+			    			<div class="columns small-12 small-centered youtube-video">
+			    		<!--	
+			    				<iframe width="100%" height="100%" src="//www.youtube.com/embed/yZsLwAMMs1w" frameborder="0" allowfullscreen></iframe>-->
+
+			    				<embed id="flojack-video" style="position: absolute; top: 0; left: 0;" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen allowfullscreen="true" allowscriptaccess="always" quality="high" bgcolor="#000000" name="my-video" style="" src="http://www.youtube.com/v/yZsLwAMMs1w?enablejsapi=1&version=3&playerapiid=ytplayer" type="application/x-shockwave-flash">
+			    			</div>
+
+                <h3>Take a trip around town with Virginia and see if you can spot them all</h3>
 						</div>
 
 						<div class="row clearfix" id="buttonRow">
@@ -246,7 +268,8 @@
 					<div class="row padding1">
 			    		<div class="columns xlarge-8 xlarge-push-4">
 			    			<h2 class="text-left"><span class="icon-book icon iconBig"></span>Readers</h2>
-			    			<h3 class="text-left">Flomio&rsquo;s FloJack is the world&rsquo;s most practical NFC reader. Kickstarter success has driven custom build requests where IP is reused.</h3>
+			    			<h3 class="text-left">Flomio&rsquo;s FloJack is the world&rsquo;s most practical NFC reader. Kickstarter success has driven custom build requests where IP is reused. </h3>
+                <h3> We take the time to solve the <strong>hard</strong>(ware) problems so you don't have to. Arduinos are cool but for low power, low cost, and low pain-in-the-butt, nothing beats a tailored product design. </h3>  
 			    		</div>
 			    	</div>
 	    		</div>
@@ -372,7 +395,7 @@ $isMobile = 1;
   var $window = $(window);
 
     resizeSlides();
-    centerSecondFrame();
+  //  centerSecondFrame();
 
   	htmlbody = $('html,body');
 
@@ -432,13 +455,13 @@ $isMobile = 1;
       forceHeight:true
     });
     resizeSlides();
-    centerSecondFrame();
+    //centerSecondFrame();
   }
   else {
         skrollr.init({
           forceHeight:true
         }).destroy();
-      $(".fourthings").css({ paddingTop: 0 });
+      //$(".fourthings").css({ paddingTop: 0 });
     }
 
   // $window.on('resize', function () {
@@ -463,7 +486,7 @@ $isMobile = 1;
     var sectionHeight = $window.height();
     
     if(sectionHeight > 500) {
-      $(".homeSlide, .bcg, .minHeight").height(sectionHeight);
+      $(".homeSlide:not(#slide-1), .bcg, .minHeight").height(sectionHeight);
     } else {
       $(".homeSlide, .bcg, .minHeight").height(500);
     }
@@ -478,13 +501,15 @@ $isMobile = 1;
     };
 
     var menuOffset = $("#slide-2").offset().top;
+		var videoOffset = $("#flojack-video").offset().top;
+
 
     $window.scroll(function() {
 
       var windowOffset = $window.scrollTop();
 
 
-      if((menuOffset - windowOffset) < 10) {
+      if(((menuOffset + $("#slide-2").height()) - windowOffset) < 10) {
         $("#buttonRow-fixed").fadeIn();
         $("#buttonRow").css({ display:"none" });
       }
@@ -492,7 +517,28 @@ $isMobile = 1;
         $("#buttonRow-fixed").fadeOut();
         $("#buttonRow").css({ display:"block" });
       }
+
+      if(Math.abs(videoOffset - windowOffset) < 300) {
+        playthevideo();
+      } else {
+      	pausethevideo();
+      }
+
+      if(windowOffset < 20){
+      	pausethevideo();
+      }
+
     });
+
+    var myPlayer = document.getElementById('flojack-video');
+
+    function playthevideo(){
+			myPlayer.playVideo();
+		}
+		function pausethevideo(){
+			myPlayer.pauseVideo();
+		}
+
 
     
      $(document).foundation();
