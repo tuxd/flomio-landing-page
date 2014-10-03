@@ -2686,12 +2686,12 @@ main {
 
 .youtube-video {
   width: 100%;
-  margin: 2em auto;
+  margin: 2em auto 1em;
   max-width: 700px;
   position: relative;
   display: block;
-  padding-bottom: 70%; }
-  .youtube-video #flojack-video {
+  padding-bottom: 50%; }
+  .youtube-video #usecase-video {
     position: absolute;
     top: 0;
     left: 0;
@@ -2745,7 +2745,7 @@ main {
   padding: 3px 10px; }
 
 #buttonRow {
-  padding-top: 1.5em; }
+  padding-top: 0.25em; }
 
 #buttonRow-fixed {
   display: none;
@@ -2825,11 +2825,6 @@ main {
     @include pulseZoom;
   }
 }*/
-#tagsImage {
-  bottom: 0;
-  position: absolute;
-  right: 0; }
-
 #slide-2 {
   background: black; }
   #slide-2 h2, #slide-2 h3 {
@@ -2837,7 +2832,39 @@ main {
 
 #slide-3 h2, #slide-4 h2, #slide-5 h2, #slide-6 h2 {
   padding-top: 4em;
-  padding-bottom: 0.25em; }
+  padding-bottom: 0.25em;
+  color: black; }
+#slide-3 h3, #slide-4 h3, #slide-5 h3, #slide-6 h3 {
+  color: black; }
+  #slide-3 h3 strong, #slide-4 h3 strong, #slide-5 h3 strong, #slide-6 h3 strong {
+    color: black; }
+
+#slide-3 {
+  background: #d5d5d7; }
+
+.tags-blurb {
+  padding-bottom: 4em; }
+
+#tags-vip {
+  width: 310px;
+  height: 159px;
+  position: absolute;
+  z-index: 11;
+  bottom: 323px;
+  right: 0; }
+
+#tags-phone {
+  width: 135px;
+  height: 208px;
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  right: 120px; }
+
+#slide-4 h2, #slide-4 h3 {
+  color: white; }
+  #slide-4 h2 strong, #slide-4 h3 strong {
+    color: white; }
 
 #slide-1 h2, #slide-1 h3 {
   color: black; }
@@ -3078,6 +3105,17 @@ main {
     font-size: 1.5em; }
   .homeSlide h2, .homeSlide h3 {
     width: 90%; }
+  .tags-blurb {
+    padding-bottom: 2em; }
+  #tags-vip {
+    width: 466px;
+    height: 238px;
+    bottom: 411px;
+    right: 0; }
+  #tags-phone {
+    width: 203px;
+    height: 311px;
+    right: 180px; }
   #slide-1 .iphone-touch {
     height: 330px; }
   #slide-1 .hand {

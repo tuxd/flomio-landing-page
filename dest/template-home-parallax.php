@@ -77,7 +77,7 @@
 
 <!-- NEW CSS -->
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="<?php echo get_bloginfo('template_url'); ?>/css/app.min.css?v1.2.4" type="text/css" media="screen"/>
+<link rel="stylesheet" href="<?php echo get_bloginfo('template_url'); ?>/css/app.min.css?v1.3.5" type="text/css" media="screen"/>
 
 <!-- mobile setting -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -194,10 +194,10 @@
 		<main>
 	        <section id="slide-1" class="homeSlide">
         		<div class="row padding1">
-		    			<h2 class="text-left easier-way">An easier way to <strong>play</strong>.</h2>
+		    			<h2 class="text-left easier-way" style="margin-top: -25px;">An easier way to <strong>play</strong>.</h2>
 		    		</div>
 
-		    		<div class="iphone-touch" id="iphone-touch">
+		    		<div class="iphone-touch" id="iphone-touch" style="height: 230px;">
               
               <img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/iphone6-hand.jpg"  data--300-top="transform: translate(400px,0px)" data-100-top="transform: translate(0px,0px)" data-300-top="transform: translate(200px,0px)" class="hand"/>
 
@@ -207,8 +207,8 @@
 
             </div>
 
-            <div class="row padding1" data-start="opacity: 1;" data-700-start="opacity:0;" data-anchor-target="#slide-1">
-		    			<h3 style="margin-top:20px;">We help developers integrate the <strong>best proximity technologies</strong>.</h3>
+            <div class="row padding1" data-start="opacity: 1;" data-anchor-target="#slide-1">
+		    			<h3 style="margin-top:20px;">We help developers integrate <strong>proximity ID technologies</strong>.</h3>
             	<div class="contact-us-box-home" style="margin: inherit;">
 		    		  	<h3><a title="Learn more" href="what-is-nfc">Start using NFC, BLE, and UHF RFID today.</a></h3>
 		    			</div>
@@ -221,24 +221,9 @@
 		    	<div class="bcg" data-100-top="background-position: 50% -30px;" data-top-bottom="background-position: 50% 80px;" data-anchor-target="#slide-2">
 
 		    		<div class="row fourthings padding1">
-		    			
-<!--
-		    			<div class="columns small-8 medium-6 small-centered large-uncentered large-3 xlarge-2">
-		    				<img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/percent-95.svg" class="percent-95" id="pie" data-start="opacity: 0;" data-center="opacity: 1;" data-anchor-target="#slide-2"/>
-		    			</div> -->
 
 		    			<div class="columns small-12 small-centered large-uncentered">
-			    			<h2 data-400-top="opacity: 0;" data-top="opacity: 1;" data-smooth-scrolling="true" data-anchor-target="#slide-2"><strong>Proximity</strong> applications are often built with the<br /><strong>same four components</strong>.</h2>
-
-			    			<div class="columns small-12 small-centered youtube-video">
-			    		<!--	
-			    				<iframe width="100%" height="100%" src="//www.youtube.com/embed/yZsLwAMMs1w" frameborder="0" allowfullscreen></iframe>-->
-
-			    				<embed id="flojack-video" style="position: absolute; top: 0; left: 0;" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen allowfullscreen="true" allowscriptaccess="always" quality="high" bgcolor="#000000" name="my-video" style="" src="http://www.youtube.com/v/yZsLwAMMs1w?enablejsapi=1&version=3&playerapiid=ytplayer" type="application/x-shockwave-flash">
-			    			</div>
-
-                <h3>Take a trip around town with Virginia and see if you can spot them all</h3>
-						</div>
+			    			<h2 data-400-top="opacity: 0;" data-top="opacity: 1;" data-smooth-scrolling="true" data-anchor-target="#slide-2">Most <strong>proximity ID</strong> applications are built with the<br /><strong>same four components</strong>.</h2>
 
 						<div class="row clearfix" id="buttonRow">
 						    <div href="#" class="columns small-6 large-3 button green"><span class="icon-tags icon"></span><p>Tags</p></div>
@@ -246,21 +231,40 @@
 						    <div class="columns small-6 large-3 button component yellow"><span class="icon-keyboard-o icon"></span><p>Middleware</p></div>
 						    <div class="columns small-6 large-3 button component red"><span class="icon-globe icon"></span><p>Web Services</p></div>
 						</div>
+            
+			    			<div class="columns small-12 small-centered youtube-video">
+			    		<!--	
+			    				<iframe width="100%" height="100%" src="//www.youtube.com/embed/7BXBH0CgvT8" frameborder="0" allowfullscreen></iframe>-->
+
+			    				<embed id="usecase-video" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen allowfullscreen="true" allowscriptaccess="always" quality="high" bgcolor="#000000" name="my-video" style="" src="http://www.youtube.com/v/7BXBH0CgvT8?enablejsapi=1&version=3&playerapiid=ytplayer" type="application/x-shockwave-flash">
+			    			</div>
+
+			    			<h3 style="width: 105%; margin-left: -15px;">
+                      Tag along with Virginia and see components in action...
+                  </h3>
+                  
+						</div>
 						
 					</div>
 				</div>
 		    </section>
 
-		    <section id="slide-3" class="homeSlide" data-400-top="background-color:rgb(0,0,0);" data-top="background-color:rgb(34,192,149);" data-anchor-target="#slide-3">    
-	    		<div class="row padding1">
-					<div class=" columns xlarge-8 minHeight">
+		    <section id="slide-3" class="homeSlide" data-400-top="background-color:rgb(0,0,0);" data-top="background-color:rgb(202,203,205);" data-anchor-target="#slide-3">
+
+		    		<img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/tags-vip.png" id="tags-vip" data-center="transform: translate(0px,185px)" data-400-top="transform: translate(0px,0px)" data-anchor-target="#slide-3"/>
+						<img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/tags-phone.png" id="tags-phone"/>
+
+	    	<div class="row padding1">
+
+					<div class="columns small-12 xlarge-8 minHeight tags-blurb">
 						<h2 class="text-left"><span class="icon-tags icon iconBig"></span>Tags</h2>
 						<h3 class="text-left">
 						Flomio is a Market Leader in tag curation. 
 						Strong relations with TI, Kovio, CXJ RFID, NXP, Verayo, GemaTouch and Capift.</h3>
 					</div>
+					
 				</div>
-				<img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/tags.png" class="tags" id="tagsImage" data-top="transform: translate(0px,0px)" data-400-top="transform: translate(387px,0px)" data-anchor-target="#slide-3"/>
+
 			</section>
 
 			<section id="slide-4" class="homeSlide">
@@ -275,7 +279,7 @@
 	    		</div>
 			</section>
 
-			<section id="slide-5" class="homeSlide" data-400-top="background-color:rgb(58,129,227);" data-top="background-color:rgb(232,173,81);" data-anchor-target="#slide-5">
+			<section id="slide-5" class="homeSlide" data-400-top="background-color:rgb(202,203,205);" data-top="background-color:rgb(190,191,193);" data-anchor-target="#slide-5">
 				<div class="bcg">
 					<div class="row padding1">
 						<div class="columns large-6">
@@ -294,7 +298,7 @@
 			    </div>
 			</section>
 
-			<section id="slide-6" class="homeSlide" data-400-top="background-color:rgb(232,173,81);" data-top="background-color:rgb(201,70,70);" data-anchor-target="#slide-6">    
+			<section id="slide-6" class="homeSlide" data-400-top="background-color:rgb(190,191,193);" data-top="background-color:rgb(179,179,181);" data-anchor-target="#slide-6">    
 				<div class="bcg">
 					<div class="padding1">
 
@@ -501,7 +505,7 @@ $isMobile = 1;
     };
 
     var menuOffset = $("#slide-2").offset().top;
-		var videoOffset = $("#flojack-video").offset().top;
+		var videoOffset = $("#usecase-video").offset().top;
 
 
     $window.scroll(function() {
@@ -530,7 +534,7 @@ $isMobile = 1;
 
     });
 
-    var myPlayer = document.getElementById('flojack-video');
+    var myPlayer = document.getElementById('usecase-video');
 
     function playthevideo(){
 			myPlayer.playVideo();

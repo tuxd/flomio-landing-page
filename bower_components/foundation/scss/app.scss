@@ -473,12 +473,12 @@ main {
 
 .youtube-video {
   width:100%;
-  margin:2em auto;
+  margin:2em auto 1em;
   max-width:700px;
   position: relative;
   display: block;
-  padding-bottom:70%;
-  #flojack-video {
+  padding-bottom:50%;
+  #usecase-video {
     position: absolute;
     top: 0;
     left: 0;
@@ -515,7 +515,7 @@ main {
 
 
 #buttonRow {
-	padding-top:1.5em;
+	padding-top:.25em;
 }
 
 #buttonRow-fixed {
@@ -617,13 +617,6 @@ main {
 }*/
 
 
-#tagsImage {
-  bottom:0;
-  position: absolute;
-  right:0;
-}
-
-
 #slide-2 {
 	background: #000;
   h2, h3 {
@@ -635,8 +628,50 @@ main {
 	h2{
 		padding-top:4em;
     padding-bottom:0.25em;
+    color:#000;
 	}
+  h3 {
+    color:#000;
+    strong {
+      color:#000;
+    }
+  }
 }
+
+#slide-3 {
+  background: $green;
+}
+.tags-blurb {
+padding-bottom: 4em;
+}
+
+#tags-vip {
+width:310px;
+height: 159px;
+position: absolute;
+z-index: 11;
+bottom:323px;
+right:0;
+}
+
+#tags-phone {
+width:135px;
+height:208px;
+position: absolute;
+z-index: 10;
+bottom:0;
+right:120px;
+}
+
+#slide-4 {
+  h2, h3 {
+    color:#FFF;
+    strong {
+      color:#FFF;
+    }
+  }
+}
+
 
 #slide-1 {
   h2, h3 {
@@ -970,6 +1005,23 @@ main {
   h2, h3 {
     width:90%;
   }
+}
+
+.tags-blurb {
+padding-bottom: 2em;
+}
+
+#tags-vip {
+width:466px;
+height: 238px;
+bottom:411px;
+right:0;
+}
+
+#tags-phone {
+width:203px;
+height:311px;
+right:180px;
 }
 
 #slide-1 {
