@@ -77,7 +77,7 @@
 
 <!-- NEW CSS -->
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="<?php echo get_bloginfo('template_url'); ?>/css/app.min.css?v1.3.5" type="text/css" media="screen"/>
+<link rel="stylesheet" href="<?php echo get_bloginfo('template_url'); ?>/css/app.min.css?v1.3.7" type="text/css" media="screen"/>
 
 <!-- mobile setting -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -242,7 +242,7 @@
 			    			<h3 style="width: 105%; margin-left: -15px;">
                       Tag along with Virginia and see components in action...
                   </h3>
-                  
+
 						</div>
 						
 					</div>
@@ -261,8 +261,16 @@
 						<h3 class="text-left">
 						Flomio is a Market Leader in tag curation. 
 						Strong relations with TI, Kovio, CXJ RFID, NXP, Verayo, GemaTouch and Capift.</h3>
-					</div>
-					
+
+						<div class="tag-examples">
+							<a href="http://flomio.com/shop/nfc-tags/flomio-hipstrip-nfc-wristbands/" class="columns small-4"><img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/tags-1.jpg" /></a>
+							<a href="http://flomio.com/shop/nfc-tags/printable-nfc-tags-64b/" class="columns small-4"><img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/tags-2.jpg" /></a>
+							<a href="http://flomio.com/shop/nfc-tags/nfc-sensor-tags/" class="columns small-4"><img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/tags-3.jpg" /></a>
+							<a href="http://flomio.com/shop/nfc-tags/dimensional-nfc-tags/" class="columns small-4"><img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/tags-4.jpg" /></a>
+							<a href="http://flomio.com/shop/nfc-tags/nfc-action-cards/" class="columns small-4"><img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/tags-5.jpg" /></a>
+							<a href="http://flomio.com/shop/nfc-tags/nfc-inlays-64b/" class="columns small-4"><img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/tags-6.jpg" /></a>
+						</div>
+					</div>					
 				</div>
 
 			</section>
