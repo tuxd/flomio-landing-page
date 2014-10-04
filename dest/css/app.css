@@ -2853,17 +2853,21 @@ main {
   width: 310px;
   height: 159px;
   position: absolute;
-  z-index: 11;
+  z-index: 12;
   bottom: 323px;
   right: 0; }
 
-#tags-phone {
+#tags-phone, #tags-phone-green {
   width: 135px;
   height: 208px;
   position: absolute;
   z-index: 10;
   bottom: 0;
   right: 120px; }
+
+#tags-phone-green {
+  display: none;
+  z-index: 11; }
 
 #slide-4 h2, #slide-4 h3 {
   color: white; }
@@ -3116,7 +3120,7 @@ main {
     height: 238px;
     bottom: 411px;
     right: 0; }
-  #tags-phone {
+  #tags-phone, #tags-phone-green {
     width: 203px;
     height: 311px;
     right: 180px; }

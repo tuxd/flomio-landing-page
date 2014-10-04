@@ -77,7 +77,7 @@
 
 <!-- NEW CSS -->
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="<?php echo get_bloginfo('template_url'); ?>/css/app.min.css?v1.3.7" type="text/css" media="screen"/>
+<link rel="stylesheet" href="<?php echo get_bloginfo('template_url'); ?>/css/app.min.css?v1.3.8" type="text/css" media="screen"/>
 
 <!-- mobile setting -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -251,8 +251,10 @@
 
 		    <section id="slide-3" class="homeSlide" data-400-top="background-color:rgb(0,0,0);" data-top="background-color:rgb(202,203,205);" data-anchor-target="#slide-3">
 
-		    		<img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/tags-vip.png" id="tags-vip" data-center="transform: translate(0px,185px)" data-400-top="transform: translate(0px,0px)" data-anchor-target="#slide-3"/>
+		    		<img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/tags-vip.png" id="tags-vip" data-bottom="transform: translate(0px,185px)" data-400-top="transform: translate(0px,0px)" data--300-bottom="transform: translate(0px,185px)" data--400-bottom="transform: translate(0px,0px)" data-anchor-target="#slide-3"/>
+		    		<img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/tags-phone-green.png" id="tags-phone-green" data-bottom="display:block" data-400-top="display:none" data--300-bottom="display:block" data--400-bottom="display:none" data-anchor-target="#slide-3"/>
 						<img src="<?php echo get_bloginfo('template_url'); ?>/images/landing/tags-phone.png" id="tags-phone"/>
+						
 
 	    	<div class="row padding1">
 
