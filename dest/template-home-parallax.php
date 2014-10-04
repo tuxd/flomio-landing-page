@@ -77,7 +77,7 @@
 
 <!-- NEW CSS -->
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="<?php echo get_bloginfo('template_url'); ?>/css/app.min.css?v1.3.8" type="text/css" media="screen"/>
+<link rel="stylesheet" href="<?php echo get_bloginfo('template_url'); ?>/css/app.min.css?v1.4.3" type="text/css" media="screen"/>
 
 <!-- mobile setting -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -308,7 +308,7 @@
 			    </div>
 			</section>
 
-			<section id="slide-6" class="homeSlide" data-400-top="background-color:rgb(190,191,193);" data-top="background-color:rgb(179,179,181);" data-anchor-target="#slide-6">    
+			<section id="slide-6" class="homeSlide">    
 				<div class="bcg">
 					<div class="padding1">
 

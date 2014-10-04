@@ -2735,7 +2735,7 @@ main {
   background: #e8ad51; }
 
 #slide-6 {
-  background: #c94646; }
+  background: black; }
 
 .minHeight {
   min-height: 700px; }
@@ -2869,9 +2869,9 @@ main {
   display: none;
   z-index: 11; }
 
-#slide-4 h2, #slide-4 h3 {
+#slide-4 h2, #slide-4 h3, #slide-6 h2, #slide-6 h3 {
   color: white; }
-  #slide-4 h2 strong, #slide-4 h3 strong {
+  #slide-4 h2 strong, #slide-4 h3 strong, #slide-6 h2 strong, #slide-6 h3 strong {
     color: white; }
 
 #slide-1 h2, #slide-1 h3 {
@@ -3142,8 +3142,8 @@ main {
     margin-top: 5em; }
   #slide-2 .bcg {
     background: black url('../images/landing/16_blur.jpg');
-    -webkit-background-size: 180% 180%;
-    background-size: 180%;
+    -webkit-background-size: cover cover;
+    background-size: cover;
     vertical-align: center;
     text-align: center; }
   #slide-4 .bcg {
@@ -3151,7 +3151,10 @@ main {
     -webkit-background-size: 180% 180%;
     background-size: 180%; }
   #slide-6 .bcg {
-    min-height: 900px; }
+    min-height: 900px;
+    background: url('../images/landing/web-servicesBg.jpg');
+    -webkit-background-size: cover cover;
+    background-size: cover; }
   #puzzle {
     width: 500px;
     min-height: 380px; }

@@ -502,7 +502,7 @@ main {
 /* Slide 5 */
 #slide-5 {background:$yellow}
 
-#slide-6 {background:$red}
+#slide-6 {background:#000}
 
 .minHeight {
    min-height: 700px;
@@ -675,7 +675,7 @@ right:120px;
   z-index: 11;
 }
 
-#slide-4 {
+#slide-4, #slide-6 {
   h2, h3 {
     color:#FFF;
     strong {
@@ -1065,13 +1065,14 @@ right:180px;
     margin-top:5em;
   }
 
-  #slide-2 .bcg { background:#000 url('../images/landing/16_blur.jpg'); background-size: 180%; vertical-align:center; text-align: center}
+  #slide-2 .bcg { background:#000 url('../images/landing/16_blur.jpg'); background-size: cover; vertical-align:center; text-align: center}
 
   /* Slide 4 */
   #slide-4 .bcg { background:$blue url('../images/landing/readersBg.jpg'); background-size: 180%; }
 
   #slide-6 .bcg {
     min-height:900px;
+    background:url('../images/landing/web-servicesBg.jpg'); background-size: cover;
   }
   #puzzle {
     width:500px;
